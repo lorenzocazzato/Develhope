@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+<h1>Registration Form</h1>
+  <body>
+    <form action="action_page.php">
+      <div class="container">
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="namesurname"><b>Name and Last Name</b></label>
+        <input type="password" placeholder="Enter Name here" name="namesurname" id="namesurname" required>
+        
+        <label for="birthday"> <b> Birthday: </b> </label>
+        <input type="date" id="birthday" name="birthday">
+        
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone">
+        <hr>
+        <label for="plan-select">Choose a plan:</label>
+        <select id="plan-select" name="plan">
+        <option value="free">Free Plan</option>
+        <option value="plan1">Plan 1 (5€/month)</option>
+        <option value="plan2">Plan 2 (15€/month)</option>
+        <option value="plan3">Plan 3 (30€/month)</option>
+        </select>
+        <br>
+        <input type="checkbox" id="pro-plan" name="pro" value="true">
+        <label for="pro-plan">Upgrade to Pro  for an additional 50€/month</label>
+        <hr>
+        <label for="creditcard"><b>Credit Card</b></label>
+        <input type="text" placeholder="Enter CreditCard" name="CreditCard" id="creditcard" required>
+       
+        <label for="cvv"><b>CVV</b></label>
+        <input type="text" placeholder="Enter CVV" name="CVV" id="CVV" required>
+
+        <label for="ExpirationDate"><b>ExpirationDate:</b></label>
+        <input type="date" id="ExpirationDate" name="bExpirationDate">
+
+        <label for="Billing Address"><b>Billing Address:</b></label>
+        <input type="text" id="Billing Address" name="Billing Address">
+        
+        <hr>
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+    
+      <div class="container signin">
+      </div>
+    </form>
+
+
+  </body>
+</html>
