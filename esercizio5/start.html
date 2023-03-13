@@ -24,10 +24,10 @@
         <input type="text" placeholder="Enter Email" name="email" id="email" required>
     
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <input type="text" placeholder="Enter Password" name="psw" id="psw" required>
     
         <label for="namesurname"><b>Name and Last Name</b></label>
-        <input type="password" placeholder="Enter Name here" name="namesurname" id="namesurname" required>
+        <input type="text" placeholder="Enter Name here" name="namesurname" id="namesurname" required>
         
         <label for="birthday"> <b> Birthday: </b> </label>
         <input type="date" id="birthday" name="birthday">
@@ -37,11 +37,13 @@
         <hr>
         <label for="plan-select">Choose a plan:</label>
         <select id="plan-select" name="plan">
-        <option value="free">Free Plan</option>
+          <optgroup label="Plans">
+          <option value="free">Free Plan</option>
         <option value="plan1">Plan 1 (5€/month)</option>
         <option value="plan2">Plan 2 (15€/month)</option>
         <option value="plan3">Plan 3 (30€/month)</option>
-        </select>
+      </optgroup>  
+      </select>
         <br>
         <input type="checkbox" id="pro-plan" name="pro" value="true">
         <label for="pro-plan">Upgrade to Pro  for an additional 50€/month</label>
