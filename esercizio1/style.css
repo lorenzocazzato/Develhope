@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(229, 0, 0);
+  padding: 10px;
+}
+body h1 {
+  text-decoration: underline;
+  color: green;
+  text-decoration-color: rgb(39, 104, 255);
+  display: flex;
+  justify-content: center;
+}
+body article {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body p {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  font-size: 0.8em;
+}
+body section article:nth-child(odd) {
+  color: rgb(102, 79, 255);
+}
+body article:nth-child(even) {
+  color: red;
+}
+
+.box {
+  flex-direction: row;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
