@@ -1,47 +1,36 @@
 @use "function.scss" as f;
 @use "colors.scss" as c;
 
-@mixin article-card($c, $c) {
+@mixin article-card($c, $bordercolor) {
   color: $c;
-  border: 2px solid $c;
-  font-size: f.rem();
+  border: 2px solid $bordercolor;
+  font-size: f.rem(16);
+  padding: 10px;
+  text-align: center;
 }
 
-body {
+.container {
+  @include article-card(c.$tertiary, c.$primary);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(229, 0, 0);
-  padding: 10px;
 }
+
 h1 {
   text-decoration: underline;
   color: c.$tertiary;
   text-decoration-color: c.$underline-color;
-  display: flex;
-  justify-content: center;
-}
-
-article {
-  border: 1px solid c.$tertiary;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  font-size: 0.8em;
 }
 
 .box {
-  flex-direction: row;
   display: flex;
-  padding: 5px;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.footersection {
+  width: 100%;
 }
 
 #odd {
@@ -53,5 +42,5 @@ p {
 }
 
 #footer {
-  @include article-card(c.$tertiary, c.$secondary, 24px);
+  @include article-card(c.$tertiary, c.$secondary);
 }

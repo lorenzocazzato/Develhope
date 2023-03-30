@@ -1,57 +1,53 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(229, 0, 0);
+.container {
+  color: green;
+  border: 2px solid red;
+  font-size: 1rem;
   padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
   text-decoration: underline;
   color: green;
   text-decoration-color: rgb(39, 104, 255);
-  display: flex;
-  justify-content: center;
-}
-
-article {
-  border: 1px solid green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  font-size: 0.8em;
 }
 
 .box {
-  flex-direction: row;
   display: flex;
-  padding: 5px;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.footersection {
+  width: 100%;
 }
 
 #odd {
   color: rgb(102, 79, 255);
   border: 2px solid green;
   font-size: 1rem;
+  padding: 10px;
+  text-align: center;
 }
 
 #even {
   color: red;
   border: 2px solid green;
   font-size: 1rem;
+  padding: 10px;
+  text-align: center;
 }
 
 #footer {
   color: green;
   border: 2px solid rgb(102, 79, 255);
-  font-size: 24px;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
