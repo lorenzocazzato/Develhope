@@ -1,0 +1,268 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(229, 0, 0);
+  padding: 10px;
+  font-size: calc 1pxrem;
+}
+
+h1 {
+  text-decoration: underline;
+  color: green;
+  text-decoration-color: rgb(39, 104, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  font-size: 1rem;
+  color: green;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+article {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.box {
+  flex-direction: row;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#odd {
+  color: rgb(102, 79, 255);
+  border: 2px solid green;
+  font-size: calc 1pxrem;
+  padding: 10px;
+  text-align: center;
+}
+
+#even {
+  color: red;
+  border: 2px solid green;
+  font-size: calc 1pxrem;
+  padding: 10px;
+  text-align: center;
+}
+
+#footer {
+  color: green;
+  border: 2px solid rgb(102, 79, 255);
+  font-size: calc 1pxrem;
+  padding: 10px;
+  text-align: center;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.number div:nth-child(1) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+
+.number div:nth-child(2) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+
+.number div:nth-child(3) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #d9d9d9;
+  color: #262626;
+}
+
+.number div:nth-child(4) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #cccccc;
+  color: #333333;
+}
+
+.number div:nth-child(5) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #bfbfbf;
+  color: #404040;
+}
+
+.number div:nth-child(6) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+}
+
+.number div:nth-child(7) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #a6a6a6;
+  color: #595959;
+}
+
+.number div:nth-child(8) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #999999;
+  color: #666666;
+}
+
+.number div:nth-child(9) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #8c8c8c;
+  color: #737373;
+}
+
+.number div:nth-child(10) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: gray;
+  color: gray;
+  background-color: blue;
+  color: red;
+}
+
+.number div:nth-child(11) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #737373;
+  color: #8c8c8c;
+}
+
+.number div:nth-child(12) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #666666;
+  color: #999999;
+}
+
+.number div:nth-child(13) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #595959;
+  color: #a6a6a6;
+}
+
+.number div:nth-child(14) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #4d4d4d;
+  color: #b3b3b3;
+}
+
+.number div:nth-child(15) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #404040;
+  color: #bfbfbf;
+}
+
+.number div:nth-child(16) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #333333;
+  color: #cccccc;
+}
+
+.number div:nth-child(17) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #262626;
+  color: #d9d9d9;
+}
+
+.number div:nth-child(18) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+}
+
+.number div:nth-child(19) {
+  border: solid 1px red;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+
+.fs-1rem {
+  font-size: 1rem;
+}
+
+.fs-2rem {
+  font-size: 2rem;
+}
+
+.fs-3rem {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
